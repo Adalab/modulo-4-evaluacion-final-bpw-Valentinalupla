@@ -38,6 +38,7 @@ En esta evaluación he creado una API REST donde puedes obtener información sob
 },
 ...
 ]```
+´´´
 
 ### 2. Obtener información sobre un signo específico (GET/signos/:id)
 
@@ -55,7 +56,7 @@ En esta evaluación he creado una API REST donde puedes obtener información sob
 "elemento": "aire",
 "descripcion": "..."
 }```
-
+´´´
 ### 3. Agregar un nuevo signo zodiacal (POST/signos)
 
 #### Solicitud
@@ -69,7 +70,7 @@ En esta evaluación he creado una API REST donde puedes obtener información sob
 "elemento": "agua",
 "descripcion": "..."
 }```
-
+´´´
 #### Respuesta
 
 ```{
@@ -79,7 +80,7 @@ En esta evaluación he creado una API REST donde puedes obtener información sob
 "elemento": "agua",
 "descripcion": "..."
 }```
-
+´´´
 ### 4. Actualizar información sobre un signo zodiacal existente (PUT/signos/:id)
 
 #### Solicitud
@@ -90,7 +91,7 @@ En esta evaluación he creado una API REST donde puedes obtener información sob
 ```{
 "descripcion": "Los cáncer son conocidos por ser sensibles y emocionales."
 }```
-
+´´´
 #### Respuesta
 
 ```{
@@ -100,7 +101,7 @@ En esta evaluación he creado una API REST donde puedes obtener información sob
 "fecha_fin": "19 de abril",
 "descripcion": "Los cáncer son conocidos por ser sensibles y emocionales."
 }```
-
+´´´
 ### 5. Eliminar un signo zodiacal existente (DELETE /signos/:id)
 
 #### Solicitud
