@@ -21,7 +21,7 @@ En esta evaluación he creado una API REST donde puedes obtener información sob
 
 #### Respuesta
 
-[
+```[
 {
 "id": 1,
 "nombre": "Aries",
@@ -37,7 +37,7 @@ En esta evaluación he creado una API REST donde puedes obtener información sob
 "descripcion": "..."
 },
 ...
-]
+]```
 
 ### 2. Obtener información sobre un signo específico (GET/signos/:id)
 
@@ -48,13 +48,13 @@ En esta evaluación he creado una API REST donde puedes obtener información sob
 
 #### Respuesta
 
-{
+```{
 "id": 3,
 "nombre": "Géminis",
 "fecha": "21 de mayo",
 "elemento": "aire",
 "descripcion": "..."
-}
+}```
 
 ### 3. Agregar un nuevo signo zodiacal (POST/signos)
 
@@ -63,22 +63,22 @@ En esta evaluación he creado una API REST donde puedes obtener información sob
 - Método: POST
 - URL: `http://localhost:5001/signos`
 
-{
+```{
 "nombre": "Cáncer",
 "fecha": "21 de junio",
 "elemento": "agua",
 "descripcion": "..."
-}
+}```
 
 #### Respuesta
 
-{
+```{
 "id": 13,
 "nombre": "Ofiuco",
 "fecha": "21 de junio",
 "elemento": "agua",
 "descripcion": "..."
-}
+}```
 
 ### 4. Actualizar información sobre un signo zodiacal existente (PUT/signos/:id)
 
@@ -87,19 +87,19 @@ En esta evaluación he creado una API REST donde puedes obtener información sob
 - Método: PUT
 - URL: `http://localhost:5001/signos/3`
 
-{
+```{
 "descripcion": "Los cáncer son conocidos por ser sensibles y emocionales."
-}
+}```
 
 #### Respuesta
 
-{
+```{
 "id": 1,
 "nombre": "Aries",
 "fecha_inicio": "21 de marzo",
 "fecha_fin": "19 de abril",
 "descripcion": "Los cáncer son conocidos por ser sensibles y emocionales."
-}
+}```
 
 ### 5. Eliminar un signo zodiacal existente (DELETE /signos/:id)
 
