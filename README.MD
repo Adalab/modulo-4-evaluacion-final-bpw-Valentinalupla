@@ -5,9 +5,9 @@ En esta evaluación he creado una API REST donde puedes obtener información sob
 ## TIPOS DE ENDPOINTS QUE ENCONTRARÁS:
 
 1. **GET/signos:** puedes obtener información sobre todos los signos del zodiaco.
-2. **GET/signos/:id:** puedes obtener información sobre un signo según su > ID.
+2. **GET/signos/:id:** puedes obtener información sobre un signo según su ID.
 3. **POST/signos:** puedes agregar un nuevo signo zodiacal.
-4. **PUT/signos/:id:** puedes actualizar nueva información sobre un signo según su > ID.
+4. **PUT/signos/:id:** puedes actualizar nueva información sobre un signo según su ID.
 5. **DELETE/signos/:id:** puedes eliminar un signo de la base de datos.
 
 ## Ejemplos de Solicitudes y Respuestas
